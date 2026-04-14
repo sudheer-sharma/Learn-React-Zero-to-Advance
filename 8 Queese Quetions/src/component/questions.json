@@ -1,0 +1,413 @@
+[
+{
+  "question":"Which HTML API is used to store data in key-value pairs locally?",
+"options":["LocalStorage","SessionStorage","Cookies","All"],
+"answer":"All"
+},
+{
+  "question":"Which CSS property creates stacking context?",
+"options":["z-index","position","opacity","All"],
+"answer":"All"
+},
+{
+  "question":"What is closure in JavaScript?",
+"options":["Function with preserved scope","Loop","Object","Array"],
+"answer":"Function with preserved scope"
+},
+{
+  "question":"Which HTML element is semantic?",
+"options":["<article>","<div>","<span>","<b>"],
+"answer":"<article>"
+},
+{
+  "question":"Which CSS unit is relative to root element?",
+"options":["rem","em","px","%"],
+"answer":"rem"
+},
+{
+  "question":"What does 'this' refer in arrow function?",
+"options":["Lexical scope","Global","Window","Undefined"],
+"answer":"Lexical scope"
+},
+{
+  "question":"Which HTML attribute is boolean?",
+"options":["disabled","class","id","style"],
+"answer":"disabled"
+},
+{
+  "question":"Which CSS layout uses one-dimensional system?",
+"options":["Flexbox","Grid","Block","Inline"],
+"answer":"Flexbox"
+},
+{
+  "question":"Which JS method returns promise?",
+"options":["fetch()","map()","filter()","forEach()"],
+"answer":"fetch()"
+},
+{
+  "question":"Which HTML tag improves accessibility?",
+"options":["<label>","<div>","<span>","<br>"],
+"answer":"<label>"
+},
+
+{
+  "question":"Which CSS property controls flex direction?",
+"options":["flex-direction","justify-content","align-items","display"],
+"answer":"flex-direction"
+},
+{
+  "question":"Which JS method clones object shallowly?",
+"options":["Object.assign()","JSON.parse()","clone()","copy()"],
+"answer":"Object.assign()"
+},
+{
+  "question":"Which HTML element defines navigation?",
+"options":["<nav>","<header>","<main>","<footer>"],
+"answer":"<nav>"
+},
+{
+  "question":"Which CSS property creates grid layout?",
+"options":["display:grid","display:flex","grid-template","layout"],
+"answer":"display:grid"
+},
+{
+  "question":"Which JS operator checks type?",
+"options":["typeof","instanceof","Both","None"],
+"answer":"Both"
+},
+{
+  "question":"Which HTML tag is used for canvas?",
+"options":["<canvas>","<draw>","<paint>","<svg>"],
+"answer":"<canvas>"
+},
+{
+  "question":"Which CSS property overlaps elements?",
+"options":["z-index","position","float","display"],
+"answer":"z-index"
+},
+{
+  "question":"Which JS concept handles async?",
+"options":["Promises","Callbacks","Async/Await","All"],
+"answer":"All"
+},
+{
+  "question":"Which HTML tag defines metadata?",
+"options":["<meta>","<data>","<info>","<head>"],
+"answer":"<meta>"
+},
+{
+  "question":"Which CSS property sets overflow behavior?",
+"options":["overflow","display","visibility","clip"],
+"answer":"overflow"
+},
+
+{
+  "question":"Which JS method converts JSON string to object?",
+"options":["JSON.parse()","JSON.stringify()","parseJSON()","toObject()"],
+"answer":"JSON.parse()"
+},
+{
+  "question":"Which HTML tag defines scalable graphics?",
+"options":["<svg>","<canvas>","<img>","<graphic>"],
+"answer":"<svg>"
+},
+{
+  "question":"Which CSS property enables transitions?",
+"options":["transition","animation","transform","effect"],
+"answer":"transition"
+},
+{
+  "question":"Which JS keyword creates class?",
+"options":["class","function","object","prototype"],
+"answer":"class"
+},
+{
+  "question":"Which HTML element groups form controls?",
+"options":["<fieldset>","<group>","<form>","<section>"],
+"answer":"<fieldset>"
+},
+
+{
+  "question":"Which CSS function applies 3D transform?",
+"options":["transform","rotate3d","translate3d","All"],
+"answer":"All"
+},
+{
+  "question":"Which JS method loops without return?",
+"options":["forEach()","map()","reduce()","filter()"],
+"answer":"forEach()"
+},
+{
+  "question":"Which HTML tag defines progress bar?",
+"options":["<progress>","<meter>","<bar>","<range>"],
+"answer":"<progress>"
+},
+{
+  "question":"Which CSS property controls animation speed?",
+"options":["animation-duration","animation-delay","animation","speed"],
+"answer":"animation-duration"
+},
+{
+  "question":"Which JS concept avoids callback hell?",
+"options":["Promises","Loops","Objects","Arrays"],
+"answer":"Promises"
+},
+
+{
+  "question":"Which HTML tag is used for responsive images?",
+"options":["<picture>","<img>","<srcset>","<media>"],
+"answer":"<picture>"
+},
+{
+  "question":"Which CSS property aligns grid items?",
+"options":["justify-items","align-items","place-items","All"],
+"answer":"All"
+},
+{
+  "question":"Which JS keyword handles errors?",
+"options":["try","catch","finally","All"],
+"answer":"All"
+},
+{
+  "question":"Which HTML tag defines template?",
+"options":["<template>","<slot>","<component>","<shadow>"],
+"answer":"<template>"
+},
+{
+  "question":"Which CSS property hides element but keeps space?",
+"options":["visibility:hidden","display:none","opacity:0","hidden"],
+"answer":"visibility:hidden"
+},
+
+{
+  "question":"Which JS method flattens array?",
+"options":["flat()","map()","reduce()","join()"],
+"answer":"flat()"
+},
+{
+  "question":"Which HTML tag embeds external content?",
+"options":["<iframe>","<embed>","<object>","All"],
+"answer":"All"
+},
+{
+  "question":"Which CSS property controls cursor style?",
+"options":["cursor","pointer","mouse","hover"],
+"answer":"cursor"
+},
+{
+  "question":"Which JS method finds element?",
+"options":["find()","filter()","map()","forEach()"],
+"answer":"find()"
+},
+{
+  "question":"Which HTML attribute loads script async?",
+"options":["async","defer","lazy","load"],
+"answer":"async"
+},
+{
+  "question":"Which HTML attribute improves SEO?",
+"options":["alt","class","id","style"],
+"answer":"alt"
+},
+{
+  "question":"Which CSS property creates a new stacking context besides z-index?",
+"options":["opacity","transform","filter","All"],
+"answer":"All"
+},
+{
+  "question":"What is event delegation in JavaScript?",
+"options":["Handling events via parent","Direct binding","Looping events","None"],
+"answer":"Handling events via parent"
+},
+{
+  "question":"Which HTML element is used for definitions list?",
+"options":["<dl>","<ul>","<ol>","<list>"],
+"answer":"<dl>"
+},
+{
+  "question":"Which CSS property defines column layout?",
+"options":["column-count","grid","flex","layout"],
+"answer":"column-count"
+},
+{
+  "question":"Which JS method converts object to JSON?",
+"options":["JSON.stringify()","JSON.parse()","toJSON()","stringify()"],
+"answer":"JSON.stringify()"
+},
+{
+  "question":"Which HTML tag is used for figure caption?",
+"options":["<figcaption>","<caption>","<figure>","<fig>"],
+"answer":"<figcaption>"
+},
+{
+  "question":"Which CSS unit is viewport height?",
+"options":["vh","vw","em","rem"],
+"answer":"vh"
+},
+{
+  "question":"Which JS method merges arrays?",
+"options":["concat()","push()","join()","merge()"],
+"answer":"concat()"
+},
+{
+  "question":"Which HTML tag represents sidebar content?",
+"options":["<aside>","<section>","<div>","<side>"],
+"answer":"<aside>"
+},
+
+{
+  "question":"Which CSS property controls white space?",
+"options":["white-space","text-wrap","space","wrap"],
+"answer":"white-space"
+},
+{
+  "question":"Which JS operator spreads array?",
+"options":["...","*","&","#"],
+"answer":"..."
+},
+{
+  "question":"Which HTML input type selects date?",
+"options":["date","time","calendar","datetime"],
+"answer":"date"
+},
+{
+  "question":"Which CSS property sets shadow?",
+"options":["box-shadow","shadow","text-shadow","Both box and text"],
+"answer":"Both box and text"
+},
+{
+  "question":"Which JS method checks array?",
+"options":["Array.isArray()","isArray()","checkArray()","typeof"],
+"answer":"Array.isArray()"
+},
+
+{
+  "question":"Which HTML tag is used for abbreviation?",
+"options":["<abbr>","<short>","<acronym>","<small>"],
+"answer":"<abbr>"
+},
+{
+  "question":"Which CSS property controls list style?",
+"options":["list-style","list","style-list","bullet"],
+"answer":"list-style"
+},
+{
+  "question":"Which JS method reduces array to single value?",
+"options":["reduce()","map()","filter()","forEach()"],
+"answer":"reduce()"
+},
+{
+  "question":"Which HTML tag is used for details disclosure?",
+"options":["<details>","<summary>","<info>","<toggle>"],
+"answer":"<details>"
+},
+{
+  "question":"Which CSS property sets gradient?",
+"options":["background","gradient","color","bg-gradient"],
+"answer":"background"
+},
+
+{
+  "question":"Which JS keyword creates promise?",
+"options":["new Promise","promise()","createPromise()","async"],
+"answer":"new Promise"
+},
+{
+  "question":"Which HTML tag is used for summary inside details?",
+"options":["<summary>","<details>","<info>","<caption>"],
+"answer":"<summary>"
+},
+{
+  "question":"Which CSS property rotates element?",
+"options":["transform","rotate","spin","angle"],
+"answer":"transform"
+},
+{
+  "question":"Which JS method delays execution?",
+"options":["setTimeout()","delay()","wait()","pause()"],
+"answer":"setTimeout()"
+},
+{
+  "question":"Which HTML tag defines main content?",
+"options":["<main>","<body>","<content>","<section>"],
+"answer":"<main>"
+},
+
+{
+  "question":"Which CSS property sets flex grow?",
+"options":["flex-grow","flex","grow","flex-size"],
+"answer":"flex-grow"
+},
+{
+  "question":"Which JS method repeats execution?",
+"options":["setInterval()","loop()","repeat()","interval()"],
+"answer":"setInterval()"
+},
+{
+  "question":"Which HTML tag defines keyboard input?",
+"options":["<kbd>","<input>","<key>","<code>"],
+"answer":"<kbd>"
+},
+{
+  "question":"Which CSS property sets outline?",
+"options":["outline","border","edge","frame"],
+"answer":"outline"
+},
+{
+  "question":"Which JS method trims string?",
+"options":["trim()","strip()","cut()","remove()"],
+"answer":"trim()"
+},
+
+{
+  "question":"Which HTML tag defines inline code?",
+"options":["<code>","<pre>","<script>","<text>"],
+"answer":"<code>"
+},
+{
+  "question":"Which CSS property sets opacity?",
+"options":["opacity","visibility","alpha","transparent"],
+"answer":"opacity"
+},
+{
+  "question":"Which JS method joins array into string?",
+"options":["join()","concat()","merge()","combine()"],
+"answer":"join()"
+},
+{
+  "question":"Which HTML tag preserves formatting?",
+"options":["<pre>","<code>","<text>","<format>"],
+"answer":"<pre>"
+},
+{
+  "question":"Which CSS property sets text shadow?",
+"options":["text-shadow","font-shadow","shadow","text-effect"],
+"answer":"text-shadow"
+},
+{
+  "question":"Which JS keyword handles async function?",
+"options":["async","await","Both","None"],
+"answer":"Both"
+},
+{
+  "question":"Which HTML tag defines mark text?",
+"options":["<mark>","<highlight>","<color>","<span>"],
+"answer":"<mark>"
+},
+{
+  "question":"Which CSS property clips element?",
+"options":["clip-path","clip","overflow","mask"],
+"answer":"clip-path"
+},
+{
+  "question":"Which JS method checks inclusion?",
+"options":["includes()","contains()","has()","find()"],
+"answer":"includes()"
+},
+{
+  "question":"Which HTML tag defines meter?",
+"options":["<meter>","<progress>","<range>","<value>"],
+"answer":"<meter>"
+}
+]
+

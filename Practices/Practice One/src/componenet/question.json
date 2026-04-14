@@ -1,0 +1,27 @@
+[
+{
+  "question":"Which JS keyword handles async function?",
+"options":["async","await","Both","None"],
+"answer":"Both"
+},
+{
+  "question":"Which HTML tag defines mark text?",
+"options":["<mark>","<highlight>","<color>","<span>"],
+"answer":"<mark>"
+},
+{
+  "question":"Which CSS property clips element?",
+"options":["clip-path","clip","overflow","mask"],
+"answer":"clip-path"
+},
+{
+  "question":"Which JS method checks inclusion?",
+"options":["includes()","contains()","has()","find()"],
+"answer":"includes()"
+},
+{
+  "question":"Which HTML tag defines meter?",
+"options":["<meter>","<progress>","<range>","<value>"],
+"answer":"<meter>"
+}
+]

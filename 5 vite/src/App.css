@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+.names {
+  background-color: aqua;
+}
+.btn {
+  background-color: yellowgreen;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 100px;
+}

@@ -34,7 +34,7 @@ const MultipalInputs = () => {
   }
 
   function clearHandler() {
-    setData({ name: "", email: "" });
+    setData({ name: "", email: "", phoneNumber: "" });
   }
 
   return (
@@ -57,10 +57,20 @@ const MultipalInputs = () => {
         onChange={inputHandle}
       />
       <br />
+      <input
+        type="number"
+        name="phoneNumber"
+        value={data.phoneNumber}
+        placeholder="Enter Phone Number"
+        // onChange={emailHandler}
+        onChange={inputHandle}
+      />
+      <br />
       <button onClick={clearHandler}>Click Me</button>
       <br />
       <h1>{data.name}</h1>
       <h1>{data.email}</h1>
+      <h1>{data.phoneNumber}</h1>
     </div>
   );
 };

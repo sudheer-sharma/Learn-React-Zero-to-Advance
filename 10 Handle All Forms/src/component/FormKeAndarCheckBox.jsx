@@ -7,24 +7,40 @@ const FormKeAndarCheckBox = () => {
   });
 
   const handleData = (e) => {
-    let key = e.target.name;
+    const { name, value, type, checked } = e.target;
 
-    console.log(key);
-
-    setFormData({ ...formData, [key]: e.target.checked });
+    setFormData({ ...formData, [name]: type === "checkbox" ? checked : value });
   };
+  // console.log(formData);
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    console.log(formData);
+  }
 
   return (
     <div>
-      <label htmlFor="tc">
+      <form onSubmit={handleSubmit}>
         <input
-          id="tc"
           type="email"
-          name="tc"
-          checked={formData.tc}
+          placeholder="Enter value"
+          name="email"
+          value={formData.email}
           onChange={handleData}
         />
-      </label>
+
+        {/* term and condition */}
+        <label htmlFor="tc">
+          <input
+            id="tc"
+            type="checkbox"
+            name="tc"
+            checked={formData.tc}
+            onChange={handleData}
+          />
+        </label>
+        <button type="submit">Submit</button>
+      </form>
     </div>
   );
 };

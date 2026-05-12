@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+input {
+  border: 1px solid black;
+}
+
+a:hover {
+  color: blue;
+}
